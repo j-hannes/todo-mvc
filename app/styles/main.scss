@@ -5,3 +5,34 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 .container {
     margin-top: 20px;
 }
+
+.list-group {
+    margin-bottom: 0;
+}
+
+.destroy {
+    color: #ccc;
+    float: right;
+    &:hover {
+        color: #d2322d;
+        cursor: pointer;
+    }
+}
+
+.toggle {
+    color: #ccc;
+    margin-right: 10px;
+    &:hover {
+        color: #47a447;
+        cursor: pointer;
+    }
+}
+
+.completed {
+    color: #ccc;
+    text-decoration: line-through;
+
+    .toggle {
+        color: #47a447;
+    }
+}
